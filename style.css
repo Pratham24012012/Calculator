@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#container{
+    width: 600px;
+    height: 650px;
+    background-image: linear-gradient(red,blue,green);
+    background-size: cover;
+    margin: 20px;
+}
+
+#calculator{
+    width: 320px;
+    height: 550px;
+    background-color: yellow;
+    margin: 0 auto;
+    top: 40px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 40px rgba(100, 500, 200, 1);
+}
+
+#result{
+    height: 130px;
+}
+
+#history{
+    text-align: right;
+    height: 40px;
+    margin: 0 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: #919191;
+}
